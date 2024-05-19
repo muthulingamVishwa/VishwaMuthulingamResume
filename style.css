@@ -26,6 +26,9 @@ h2, h3 {
   color: #00A8B5; /* Teal */
 }
 .download-button {
+  position: absolute;
+  top: 68%;
+  right: 9px;
   display: inline-block;
   padding: 5px  5px;
   font-size: 12px;
