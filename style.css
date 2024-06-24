@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  line-height: 1.6;
+  line-height: 1.8;
   background-color: #F6F6F6; /* Light gray */
   margin: 0;
   padding: 0;
@@ -8,107 +8,265 @@ body {
 }
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 30px;
   background-color: #FFFFFF; /* White */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-h1 {
-  font-size: 30px;
-  margin: 0;
-  color: wheat; /* Black */
-}
-
-h2, h3 {
-  font-size: 24px;
-  color: #00A8B5; /* Teal */
-}
-.download-button {
-  position: absolute;
-  top: 68%;
-  right: 9px;
-  display: inline-block;
-  padding: 5px  5px;
-  font-size: 12px;
-  color: #fff;
-  background-color: #007bff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-.download-button:hover {
-  background-color: #0056b3;
-}
-
-p {
-  margin: 0;
-}
-
-.social-icons a {
-  color: #333333; /* Black */
-  margin-right: 10px;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.social-icons a:hover {
-  color: wheat; /* Teal */
-}
-
-.section {
-  margin-bottom: 30px;
-}
-
-.section h2 {
-  margin-bottom: 10px;
-}
-
-/* Header Styles */
 header {
-  padding: 20px;
   text-align: left;
+  padding: 20px;
+  background-color: #067ded; /* Light Orange */
+  color: #FFFFFF; /* White text */
+  border-radius: 8px 8px 0 0; /* Rounded corners for the top */
   position: relative;
-  background-color: #00A8B5; /* Teal */
-  color: #FFFFFF;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 32px;
+  margin: 10px 0 5px 0;
+  font-size: 36px;
 }
 
-/* Footer Styles */
-footer {
-  background-color: #00A8B5; /* Teal */
+header p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+header .social-icons a {
   color: #FFFFFF;
-  padding: 20px;
-  text-align: center;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
 }
 
-footer p {
-  margin: 0;
-  font-size: 14px;
+header .social-icons a:hover {
+  color: #00BFA5; /* Darker Purple */
 }
 
-/* Button Styles */
-.btn {
-  display: inline-block;
-  background-color: #00A8B5; /* Teal */
+
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #00BFA5; /* Deep Purple */
+  border-bottom: 2px solid #00BFA5;
+  padding-bottom: 10px;
+}
+
+.section ul,
+.section p {
+  margin: 0 0 20px 0;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-list .skill {
+  background-color: #66BB6A; /* Green */
   color: #FFFFFF;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px;
 }
 
-.btn:hover {
-  background-color: #FF847C; /* Salmon */
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  background-color: #067ded; /* Light Coral */
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
 }
 
-.logo {
-  position: absolute;
-  top: 10%;
-  right: 20px;
-  height: 20px;
+.contact-info div {
+  display: flex;
+  align-items: center;
 }
+
+.contact-info div i {
+  margin-right: 10px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #6A1B9A; /* Bright Teal */
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+.box {
+  background-color: #E2DADB;
+  border:  solid #A2A7A5;
+
+}
+
+header .logo {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 90px;
+    height: 90px;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    background-color: #F6F6F6; /* Light gray */
+    margin: 0;
+    padding: 0;
+    color: #333333;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #FFFFFF; /* White */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  header {
+    text-align: left;
+    padding: 20px;
+    background-color: #067ded; /* Light Orange */
+    color: #FFFFFF; /* White text */
+    border-radius: 8px 8px 0 0; /* Rounded corners for the top */
+    position: relative;
+  }
+  
+
+  header .social-icons a {
+    color: #FFFFFF;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  header .social-icons a:hover {
+    color: #00BFA5; /* Darker Purple */
+  }
+  
+  header .logo {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 90px;
+    height: 90px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00BFA5; /* Deep Purple */
+    border-bottom: 2px solid #00BFA5;
+    padding-bottom: 10px;
+  }
+  
+  .section ul,
+  .section p {
+    margin: 0 0 20px 0;
+  }
+  
+  .section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill-list .skill {
+    background-color: #66BB6A; /* Green */
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #067ded; /* Light Coral */
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .contact-info div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info div i {
+    margin-right: 10px;
+  }
+  
+  .download-button {
+    display: inline-block;
+    position: absolute;
+    top: 130px;
+    right: 15px;
+    margin: 5px auto;
+    padding: 5px  5px;
+    font-size: 12px;
+    background-color: #00BFA5; /* Orange (Deep Orange 300) */
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .download-button:hover {
+    background-color: #7109e9; /* Darker Orange (Deep Orange 200) */
+  }
+  
+
+  header h1 {
+    margin-bottom: 0; /* Remove bottom margin from h1 */
+  }
+  
+  header p.subtitle {
+    margin-top: 0; /* Remove top margin from subtitle p */
+  }
